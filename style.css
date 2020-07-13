@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@700&display=swap');
+* {
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+nav {
+    background-color: #fff;
+    width: 940px;
+    margin: 0 auto;
+    padding: 10px;  
+}
+.navbar nav ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    
+    
+}
+.navbar nav ul li {
+    padding-right: 20px !important;
+}
+.navbar nav ul li a{
+    text-decoration: none;
+    color: #242133;
+    font-size: 14px;
+}
+.navbar nav ul li #btn{
+    text-decoration: none;
+    color: #fff ;
+    background-color: #0fbbce;
+    padding: 15px 25px;
+    border-radius: 3px;
+}
+.navbar nav ul li #btn:hover{
+    text-decoration: none;
+    color: #0fbbce;
+    background-color: #fff;
+    padding: 15px 25px;
+    border-radius: 3px;
+    border: #0fbbce 1px solid;
+}
+main {
+    height: 100vh;
+    background-image: url("./img/ocean2.jpg");
+    object-fit: cover;
+    color: #fff;
+}
+.main-container {
+    width: 940px;
+    margin: 0 auto; 
+}
+.main-title {
+    padding: 15% 0%  3% 0%;
+    font-size: 45px;
+    line-height: 1;
+    font-family: 'Source Serif Pro', serif;
+    
+}
+.search {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #fff;
+    color: #555; 
+    border-radius: 5px;
+    
+}
+
+.search input[type="submit"] {
+      border: none;
+      background-color: #ff7b00;
+      padding: 0px 30px;
+      color: #fff;
+      border-bottom-right-radius: 5px;
+      border-top-right-radius: 5px;
+      font-size: 18px;
+    }
+    
+.search p  {
+    padding-left: 15px;
+}
+.search p i {
+    font-size: 22px;
+    padding-right: 5px;
+}
+ section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #fff;
+    margin-top: 15%;
+    color: #242133 ;
+    border-radius: 5px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 900;
+    flex-wrap: wrap;
+    width: 300px;
+    height: auto;
+    padding: 25px;
+    
+}
+.card h3 {
+    font-weight: bold;
+}
+.card span {
+    width: 50%;
+    background-color: #e4edf9;
+    border-radius: 10px;
+    padding: 5px 5px;
+    color: #242133;
+}
+.card small {
+    padding: 10px 0;
+}
+.card i {
+    font-size: 12px;
+}
+.card span {
+    font-size: 10px;
+}
+
